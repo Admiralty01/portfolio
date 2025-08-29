@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Marvellous Dandison | Portfolio</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
+		.hero-bg {
+			position: relative;
+		}
+
+		.hero-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.6);
+		}
+	</style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
+	<!-- Hero Section -->
+	<section class="h-screen flex flex-col justify-center items-center text-center px-6 text-white hero-bg" data-aos="fade-up" style="background-color:rgba(79, 70, 229, 1);">
+		<div class="hero-overlay"></div>
+		<div class="relative z-10" style="border: 2 px solid white;">
+			<h1 class="text-5xl font-extrabold mb-4">Stewart Prosper Gabriel</h1>
+			<h2 class="text-2xl font-light mb-6">Final-year Computer Science & Informatics Student</h2>
+			<p class="max-w-2xl text-gray-100 mb-8"> Software Developer| Skilled in Front-end Development, and Databases</p>
+			<a href="#contact" class="px-6 py-3 bg-white text-purple-600 font-semibold hover:bg-gray-100 rounded-full shadow-lg transition">Contact Me</a>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section class="py-20 px-8 max-w-5xl mx-auto" id="about" data-aos="fade-right">
+		<h2 class="text-3xl font-bold text-indigo-600 mb-6">About Me</h2>
+		<p class="leading-relaxed text-lg">
+			I am a final-year Computer Science and Informatics student at Federal University Otuoke with hands-on experience in software development, technical design, and project planning. Currently completing an internship at <span class="font-semibold">Xcella</span> and contributed to a technical design proposal at <span class="font-semibold">Teckscul</span>. Proven
+			leadership as an Executive Member of NUOS, Otuoke Chapter. Passionate about building innovative software solutions and solving real-world problems.
+		</p>
+	</section>
+
+	<!-- Experience Section -->
+	<section class="py-20 px-8 bg-gray-100" id="experience" data-aos="fade-left">
+		<h2 class="text-3xl font-bold text-indigo-600 mb-6">Experience</h2>
+		<div class="space-y-8 max-w-5xl mx-auto">
+			<div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+				<h3 class="text-xl font-semibold">Software Development Intern | Xcella</h3>
+				<p class="text-gray-500 text-sm">[Start Date] – Present</p>
+				<ul class="list-disc ml-5 mt-3 space-y-2 text-gray-700">
+					<li>Contributed to software solutions, debugging, testing, and implementing features.</li>
+					<li>Collaborated with developers to improve project performance and reliability.</li>
+				</ul>
+			</div>
+
+			<div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+				<h3 class="text-xl font-semibold">Technical Design Contributor | Teckscul</h3>
+				<p class="text-gray-500 text-sm">[Start Date] – [End Date]</p>
+				<ul class="list-disc ml-5 mt-3 space-y-2 text-gray-700">
+					<li>Contributed to writing a design proposal, enhancing documentation and planning.</li>
+					<li>Supported system workflow and architecture planning.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills Section -->
+	<section class="py-20 px-8 max-w-5xl mx-auto" id="skills" data-aos="zoom-in">
+		<h2 class="text-3xl font-bold text-indigo-600 mb-6">Skills</h2>
+		<div class="grid md:grid-cols-2 gap-6">
+			<div class="bg-white p-6 rounded-xl shadow border border-gray-200">
+				<h3 class="font-semibold mb-2">Programming</h3>
+				<p>Python, Java, C++, JavaScript</p>
+			</div>
+			<div class="bg-white p-6 rounded-xl shadow border border-gray-200">
+				<h3 class="font-semibold mb-2">Web Development</h3>
+				<p>HTML, CSS, React, TailwindCSS</p>
+			</div>
+			<div class="bg-white p-6 rounded-xl shadow border border-gray-200">
+				<h3 class="font-semibold mb-2">Databases</h3>
+				<p>SQL, MySQL</p>
+			</div>
+			<div class="bg-white p-6 rounded-xl shadow border border-gray-200">
+				<h3 class="font-semibold mb-2">Tools & Others</h3>
+				<p>Git, GitHub, Agile, Technical Documentation</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section class="py-20 px-8 bg-gray-100" id="contact" data-aos="fade-up">
+		<h2 class="text-3xl font-bold text-indigo-600 mb-6">Contact</h2>
+		<p class="mb-6 max-w-3xl">Interested in working together or want to know more? Let’s connect!</p>
+		<div class="space-y-3 text-lg">
+			<p>Email: <a href="mailto:yourname@email.com" class="text-indigo-600 hover:underline">alastewart25@email.com</a></p>
+			<p>LinkedIn: <a href="www.linkedin.com/in/admiral-wolfgang-29187328b" class="text-indigo-600 hover:underline">linkedin.com/in/admiral-wolfgang-29187328b</a></p>
+			<p>GitHub: <a href="#" class="text-indigo-600 hover:underline">github.com/Admiralty01</a></p>
+		</div>
+	</section>
+
+	<footer class="py-6 text-center text-gray-500 text-sm bg-white border-t">
+		© 2025 Stewart Prosper Gabriel. All Rights Reserved.
+	</footer>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({duration: 1000, once: true});
+	</script>
+</body>
+
+</html>
